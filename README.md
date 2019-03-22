@@ -18,7 +18,7 @@
 ## 说明
 - data_proc001_type.py，在参考[3]取得0.619
 - data_train2cnn100.py，训练数据转为图片,cnn100.py处理，结果acc0.61左右，没有GPU，所以没进一步研究 
-
+- data_proc005.py，对一些行业知识了解产生特征，一个方向供参考
 
 ## 主要参考
 1. [DCIC-Failure-Prediction-of-Concrete-Piston-for-Concrete-Pump-Vehicles](https://github.com/jmxhhyx/DCIC-Failure-Prediction-of-Concrete-Piston-for-Concrete-Pump-Vehicles)
