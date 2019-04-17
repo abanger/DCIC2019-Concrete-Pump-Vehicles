@@ -1,3 +1,7 @@
+# @author:abanger
+# blog: https://abanger.github.io
+# github: https://github.com/abanger/DCIC2019-Concrete-Pump-Vehicles
+
 # #  数据整合，未处理
 
 import pandas as pd

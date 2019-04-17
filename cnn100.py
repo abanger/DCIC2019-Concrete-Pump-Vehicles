@@ -1,3 +1,7 @@
+# @author:abanger
+# blog: https://abanger.github.io
+# github: https://github.com/abanger/DCIC2019-Concrete-Pump-Vehicles
+
 ## 处理data_train2cnn100.py 生成数据，过程
 import os
 import sys
@@ -67,17 +71,7 @@ input_data = Input(shape=(n_channels,img_h,img_w))
 out = Conv2D(filters=64,kernel_size=(3,3),strides=(1,1),padding='same',activation='relu')(input_data)
 out = Conv2D(filters=64,kernel_size=(3,3),strides=(1,1),padding='same',activation='relu')(out)
 out = BatchNormalization(axis=3)(out)
-'''
-out = MaxPool2D(pool_size=(2,2),strides=(2,2))(out)
-out = Conv2D(filters=128, kernel_size=(3, 3), strides=(1, 1), padding='same', activation='relu')(out)
-out = Conv2D(filters=128, kernel_size=(3, 3), strides=(1, 1), padding='same', activation='relu')(out)
-out = BatchNormalization(axis=3)(out)
-out = MaxPool2D(pool_size=(2, 2), strides=(2, 2))(out)
-out = Conv2D(filters=256, kernel_size=(3, 3), strides=(1, 1), padding='same', activation='relu')(out)
-out = Conv2D(filters=256, kernel_size=(3, 3), strides=(1, 1), padding='same', activation='relu')(out)
-out = BatchNormalization(axis=3)(out)
-out = GlobalAveragePooling2D()(out)
-'''
+
 ####out = Dense(units=512,activation='relu')(out) ###数据集比较小，可不加这一层
 ##out = Dense(units=5,activation='softmax')(out)
 #top_model.add(Dense(256, activation='relu'))

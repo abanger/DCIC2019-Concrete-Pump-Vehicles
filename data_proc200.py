@@ -1,3 +1,7 @@
+# @author:abanger
+# blog: https://abanger.github.io
+# github: https://github.com/abanger/DCIC2019-Concrete-Pump-Vehicles
+
 # 20190222修改
 # 删除异常数据 
 ## 20190222添加特征数据

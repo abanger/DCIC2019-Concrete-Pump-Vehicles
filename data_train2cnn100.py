@@ -1,5 +1,9 @@
+# @author:abanger
+# blog: https://abanger.github.io
+# github: https://github.com/abanger/DCIC2019-Concrete-Pump-Vehicles
+
 #类似图像处理情况（处理数据）
-##https://www.colabug.com/4895309.html
+
 import os
 #from PIL import Image
 import numpy as np
